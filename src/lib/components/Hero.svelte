@@ -90,24 +90,25 @@
                     </div>
                 </div>
 
-                <!-- AI Response Box (Dark) -->
-                <div class="bg-[#1C1C1C] rounded-lg p-4 text-gray-300 shadow-xl border border-gray-800 max-w-2xl mx-auto mt-8">
-                    <div class="flex items-center justify-between mb-4 border-b border-gray-700 pb-3">
-                        <div class="flex items-center gap-2 text-xs font-medium text-gray-400">
-                            <div class="w-4 h-4 rounded-full bg-plain-green flex items-center justify-center text-black font-bold">A</div>
-                            Ask Sidekick
+                <!-- AI Call Summary Box -->
+                <div class="bg-[#F2FBF7] rounded-lg p-6 shadow-xl border border-green-100 max-w-2xl mx-auto mt-8">
+                    <div class="flex items-center justify-between mb-4 border-b border-green-200 pb-3">
+                        <div class="flex items-center gap-2 text-xs font-bold text-gray-700">
+                            <div class="w-5 h-5 rounded-full bg-plain-green flex items-center justify-center text-white">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            AI Call Summary
                         </div>
-                        <div class="text-[10px] text-gray-500">ESC to close</div>
+                        <div class="text-[10px] text-gray-500 bg-white px-2 py-1 rounded">Just now</div>
                     </div>
-                    <div class="space-y-3 mb-6">
-                        <div class="h-2 w-3/4 bg-gray-700 rounded opacity-50"></div>
-                        <div class="h-2 w-1/2 bg-gray-700 rounded opacity-50"></div>
+                    <div class="space-y-2 mb-4 text-sm text-gray-700">
+                        <p><span class="font-bold">Caller:</span> Sarah Johnson • Demo request</p>
+                        <p><span class="font-bold">Duration:</span> 3m 42s</p>
+                        <p class="text-xs leading-relaxed pt-2 border-t border-green-100">"Interested in upgrading to Business plan. Currently using competitor. Needs team of 5. Follow up with pricing."</p>
                     </div>
-                    <div class="relative">
-                        <input type="text" placeholder="How can I help you today?" class="w-full bg-transparent border-none text-sm text-white placeholder-gray-500 focus:ring-0 p-0" />
-                        <div class="absolute right-0 top-0 flex gap-2">
-                             <div class="w-4 h-4 border border-gray-600 rounded text-[10px] flex items-center justify-center text-gray-500">↵</div>
-                        </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 bg-plain-green text-white text-xs font-bold py-2 rounded hover:opacity-90">Sync to CRM</button>
+                        <button class="px-3 bg-white border border-gray-200 text-xs font-bold rounded hover:bg-gray-50">View Details</button>
                     </div>
                 </div>
             </div>
